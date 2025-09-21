@@ -1,0 +1,17 @@
+### Latest
+GET http://localhost:5096/api/twitter/latest/peppedgrape
+
+
+### Like
+POST http://localhost:5096/api/twitter/like/1969566027198439927
+
+### retweet
+POST http://localhost:5096/api/twitter/retweet/1969566027198439927
+
+### reply
+POST http://localhost:5096/api/twitter/reply/1969566027198439927
+Body: "Teste Project TweetFi"
+
+### User me
+GET http://localhost:5096/api/twitter/me
+

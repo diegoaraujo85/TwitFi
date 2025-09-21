@@ -1,0 +1,61 @@
+# =====================
+# Build & binários
+# =====================
+bin/
+obj/
+out/
+publish/
+
+# =====================
+# Visual Studio / IDE
+# =====================
+.vscode/
+*.code-workspace
+*.user
+*.suo
+*.sln.iml
+.idea/
+
+# =====================
+# Pacotes NuGet
+# =====================
+*.nupkg
+*.snupkg
+.nuget/
+
+# =====================
+# Logs e temporários
+# =====================
+*.log
+[Tt]emp/
+[Dd]ebug/
+[Rr]elease/
+
+# =====================
+# Arquivos sensíveis / secrets
+# =====================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.json
+secrets.json
+*.pfx
+*.key
+*.crt
+
+# =====================
+# SQLite
+# =====================
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================
+# Mac / Linux
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Dotnet watch & debug
+# =====================
+.dotnet/
